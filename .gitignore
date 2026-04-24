@@ -1,0 +1,29 @@
+# Environments & Secrets (CRITICAL)
+.env
+.env.local
+.env.*
+.venv/
+venv/
+env/
+
+# Python Cache and Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# LiveKit / Audio temporary files (if you ever save them locally)
+*.wav
+*.mp3

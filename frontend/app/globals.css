@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ink:        #0d1117;
+  --paper:      #f7f3ee;
+  --cream:      #efe9e0;
+  --gold:       #b8892a;
+  --gold-light: #d4a84b;
+  --gold-pale:  #f0e4c8;
+  --muted:      #7a7268;
+  --border:     #ddd5c5;
+}
+
+html, body { height: 100%; font-family: 'DM Sans', sans-serif; background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* LiveKit component resets */
+button { font-family: inherit; }
+[data-lk-theme] { --lk-bg: transparent; }
