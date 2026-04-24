@@ -40,12 +40,3 @@ Browser (Next.js)
                           ├── Claude LLM (Sarah's brain)
                           └── Cartesia TTS (Caroline voice)
 ```
-
-## Environment Variables
-
-```env
-LIVEKIT_API_KEY=APIQykXAKy2Dvg2
-LIVEKIT_API_SECRET=VrmCBBNGiRjsi5lrQPaL4Mes0nza5UI5IrFHpWsXX6L
-NEXT_PUBLIC_LIVEKIT_URL=wss://her-ai-project-8p1gwi1d.livekit.cloud
-NEXT_PUBLIC_AGENT_NAME=her-ai-sarah
-```
