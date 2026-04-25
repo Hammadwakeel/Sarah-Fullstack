@@ -158,3 +158,41 @@ button { font-family: inherit; }
     @apply font-sans;
   }
 }
+
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+
+@theme {
+  --font-sans: 'DM Sans', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --color-gold: #b8892a;
+  --color-gold-light: #d4a84b;
+  --color-ink: #0d1117;
+  --color-paper: #f7f3ee;
+  --color-cream: #efe9e0;
+  --color-border: #ddd5c5;
+  --color-muted: #7a7268;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  font-family: 'DM Sans', sans-serif;
+  background: #f7f3ee;
+  color: #0d1117;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* LiveKit overrides */
+button { font-family: inherit; }
+[data-lk-theme] { --lk-bg: transparent; }
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50%       { opacity: 1;   transform: scale(1.3); }
+}
