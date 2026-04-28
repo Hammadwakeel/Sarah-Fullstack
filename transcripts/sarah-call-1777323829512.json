@@ -1,0 +1,15 @@
+{
+  "room": "sarah-call-1777323829512",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Okay.",
+      "ts": "2026-04-28T02:05:07.065288"
+    },
+    {
+      "role": "user",
+      "text": "Yeah. I'm there.",
+      "ts": "2026-04-28T02:05:12.887870"
+    }
+  ]
+}

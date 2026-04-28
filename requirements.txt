@@ -2,3 +2,5 @@ livekit-agents[anthropic,assemblyai,silero,cartesia]>=0.12.0
 livekit>=0.17.0
 python-dotenv>=1.0.0
 aiohttp>=3.9.0
+livekit-plugins-noise-cancellation 
+livekit-plugins-turn-detector
